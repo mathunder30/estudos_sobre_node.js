@@ -11,5 +11,5 @@ exports.Testes = (req, res) =>{
 
 exports.Entrega = (req, res) => {
     console.log(req.body)
-    res.send(`O que voce digitou foi: ${req.body.nome}`);
+    res.send(`O que voce digitou foi: ${req.body}`);
 }
